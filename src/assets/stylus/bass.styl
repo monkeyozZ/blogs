@@ -1,0 +1,30 @@
+html,body
+  font-family "Microsoft YaHei",'宋体'
+
+body,h1,h2,h3,h4,h5,h6,p,dl,dt,dd,ul,ol,li,pre,
+fieldset,legend,input,textarea,th,td
+  margin 0
+  padding 0
+h1,h2,h3,h4,h5,h6
+  font-weight 200
+  font-size 20px
+table
+  border-collapse collapse
+  border-spacing 0
+ul,li
+  list-style none
+fieldset,img
+  border none
+a
+  text-decoration none
+  color #333333
+input
+&:focus
+  outline none
+/*旧浏览器html新增的标签无法识别块状显示*/
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section
+  display block
+
+*,:hover
+  transition  background-color .25s linear,color .05s linear,margin .25s linear,opacity .25s linear,filter .25s linear,visibility .25s linear,transform .25s linear
+

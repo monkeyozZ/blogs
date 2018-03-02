@@ -1,0 +1,34 @@
+{
+  "data":[
+    {
+      "id":"1",
+      "name":"首页",
+      "icon":"fa fa-home",
+      "url":"/"
+    },
+    {
+      "id":"2",
+      "name":"前端",
+      "icon":"fa fa-pencil",
+      "url":"/category/front"
+    },
+    {
+      "id":"3",
+      "name":"php",
+      "icon":"fa fa-database",
+      "url":"/category/php"
+    },
+    {
+      "id":"4",
+      "name":"杂谈",
+      "icon":"fa fa-coffee",
+      "url":"/category/chat"
+    },
+    {
+      "id":"5",
+      "name":"关于",
+      "icon":"fa fa-address-card-o",
+      "url":"/category/about"
+    }
+  ]
+}

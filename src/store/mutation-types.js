@@ -1,0 +1,5 @@
+  export const SET_ID = 'SET_ID'
+  export const GET_PID = 'GET_PID'
+  export const SET_MESSAGE = 'SET_MESSAGE'
+  export const SHOWOPEN = 'SHOWOPEN'
+  export const SHOWSEARCH = 'SHOWSEARCH'

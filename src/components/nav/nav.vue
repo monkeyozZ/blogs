@@ -1,7 +1,7 @@
 <template>
   <div class="nav_box">
     <ul>
-        <router-link  v-for="item in arr.data" tag="li" exact="true" :to="item.url" :key="item.id" class="nav_item" v-on:click.native="changeopen({ismoible: !moible})">
+        <router-link  v-for="item in arr.data" tag="li" exact :to="item.url" :key="item.id" class="nav_item" v-on:click.native="changeopen({ismoible: !moible})">
           <a href="">
             <i :class="item.icon"></i>{{item.name}}
           </a>
